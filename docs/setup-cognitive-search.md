@@ -26,7 +26,7 @@ Cognitive Search の一覧が表示されますので、"作成" をクリック
 4 | 場所 | 任意の場所を選択します。下図は東日本リージョンである「Japan East」を選択しています。
 5 | 価格レベル | "基本" (Basic) を選択します。
 
-![](./images/1-1-3-free.png)
+![](./images/1-1-3-basic.png)
 
 <br>
 
