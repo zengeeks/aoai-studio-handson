@@ -28,6 +28,8 @@ Cognitive Search の一覧が表示されますので、"作成" をクリック
 
 ![](./images/1-1-3-basic.png)
 
+> Cognitive Search における Vector Search 機能は Free プランで利用できるようになりましたが、On Your Data の UI の validation では 2023年10月時点では未対応のため "基本" (Basic) を選択します。
+
 <br>
 
 
