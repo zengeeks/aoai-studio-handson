@@ -32,13 +32,13 @@ Postman は、API を構築および使用するための API プラットフォ
 
 タイトル | 概要
 --- | ---
-🧪 0. Azure OpenAI Service のセットアップ | Azure OpenAI のリソースをセットアップします。
-🧪 1. Cognitive Search のセットアップ | Azure Cognitive Search のリソースをセットアップします。
-🧪 2. Storage account のセットアップ | Azure Storage Account のリソースをセットアップします。
-🧪 3. On Your Data で独自のデータを活用して回答を生成 | Azure OpenAI Studio から On Your Data をセットアップし、正しく回答が得ることができるかを実践します。
-🧪 4. Postman を利用した API のコール | Postman を使って Azur OpenAI の API をコールする方法を実践します。
-(Option)<br>🧪 5. On Your Data のデプロイ | On Your Data で作成したチャットをデプロイしてチャットの利用を実践します。
-リソースの削除 | リソースグループからリソースの削除をする方法を紹介します。
+[🧪 0. Azure OpenAI Service のセットアップ](./docs/setup-azure-openai.md) | Azure OpenAI のリソースをセットアップします。
+[🧪 1. Cognitive Search のセットアップ](./docs/setup-cognitive-search.md) | Azure Cognitive Search のリソースをセットアップします。
+[🧪 2. Storage account のセットアップ](./docs/setup-storage-account.md) | Azure Storage Account のリソースをセットアップします。
+[🧪 3. On Your Data で独自のデータを活用して回答を生成](./docs/setup-on-your-data.md) | Azure OpenAI Studio から On Your Data をセットアップし、正しく回答が得ることができるかを実践します。
+[🧪 4. Postman を利用した API のコール](./docs/using-postman.md) | Postman を使って Azur OpenAI の API をコールする方法を実践します。
+(Option)<br>[🧪 5. On Your Data のデプロイ](./docs/deploy-webapp.md) | On Your Data で作成したチャットをデプロイしてチャットの利用を実践します。
+[リソースの削除](./docs/remove-azure-resources.md) | リソースグループからリソースの削除をする方法を紹介します。
 
 <br>
 
