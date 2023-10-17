@@ -98,4 +98,4 @@ TODO: ADA > 50K,
 
 ---
 
-[📋 目次](../README.md) | [⏭️ 次へ](./on-your-data.md)
+[📋 目次](../README.md) | [⏭️ 次へ](./setup-cognitive-search.md)
