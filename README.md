@@ -66,4 +66,4 @@ Postman をダウンロードしてインストールします。無料で利用
 
 以下のリンクからハンズオンの旅に出発しょう🚀
 
-- [🧪 0. Azure OpenAI Service のセットアップ](./setup-azure-openai.md)
+- [🧪 0. Azure OpenAI Service のセットアップ](./docs/setup-azure-openai.md)
