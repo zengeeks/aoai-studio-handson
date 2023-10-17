@@ -86,7 +86,11 @@ Azure OpenAI のリソースが表示されたら "概要" の上部にある "G
 
 ## 0-3. クォータの更新
 
-Azure OpenAI Service は、TPM (Tokens-per-Minute) という単位で、モデルがアクセスできるトークンの数を制限しています。デフォルトでは1Kになっているため、今回作業を円滑に行なうためにこの値を変更します。
+Azure OpenAI Service は、TPM (Tokens-per-Minute) という単位で、モデルがアクセスできるトークンの数を制限しています。クォータの詳細について興味がありましたら、以下のドキュメントをご参照ください。
+
+- [Azure OpenAI Service のクォータを管理する | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/quota?tabs=rest)
+
+ここではハンズオンを円滑に行なうためにクォータを変更します。
 
 画面左の Quatas (①) をクリック > "Text-Embeddings-Ada-002" (②) を展開 > 今回作成した Deployment ID をクリックします。
 
