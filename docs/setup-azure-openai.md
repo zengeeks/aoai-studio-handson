@@ -5,10 +5,11 @@
 
 - 0-1. Azure OpenAI Service のリソースの作成
 - 0-2. モデルのデプロイ
+- 0-3. クォータの更新
 
 ## 0-1. Azure OpenAI Service のリソースの作成
 
-※ 既に Azure OpenAI Service のリソースを作成済みの場合は、「Azure OpenAI Service のリソースの作成」は飛ばして「0-2. モデルのデプロイ」からご確認ください。
+**※ 既に Azure OpenAI Service のリソースを作成済みの場合は、「Azure OpenAI Service のリソースの作成」は飛ばして「0-2. モデルのデプロイ」からご確認ください。**
 
 
 Azure portal (`portal.azure.com`) を開き、上部の検索で「azure openai」と入力して表示される "Azure OpenAI" をクリックします。
@@ -45,6 +46,11 @@ Azure OpenAI の作成画面になります。以下を参考に入力し、"次
 
 ## 0-2. モデルのデプロイ
 
+ここでは、ハンズオンで利用する2つのモデルをデプロイします。既にデプロイ済みで利用可能なモデルがある場合は、そのモデルを利用しても問題ありません。
+
+1. `text-embedding-ada-002`
+2. GPT モデル (`gpt-35-turbo-16k`, `gpt-4`, `gpt-4-32k` のいずれか)
+
 ### text-embedding-ada-002 のデプロイ
 
 Azure OpenAI のリソースが表示されたら "概要" の上部にある "Go to Azure OpenAI Studio" をクリックして Azure OpneAI Studio に移動します。
@@ -71,18 +77,21 @@ Azure OpenAI のリソースが表示されたら "概要" の上部にある "G
 
 ![image](./images/0-2-3.png)
 
-### ChatGPT モデル のデプロイ
+### GPT モデル のデプロイ
 
-前述と同様の手順で、ChatGPT のモデルをデプロイします。モデルは以下のいずれかをお好みでデプロイします。  
-また、"Deploy Model" の画面で入力する "Deployment Name" はモデル名と同じにします。こだわりがない場合は `gpt-35-turbo` をデプロイします。
+前述と同様の手順で、GPT のモデルをデプロイします。モデルは以下のいずれかをお好みでデプロイします。こだわりがない場合は `gpt-35-turbo-16k` をデプロイします。
 
 - `gpt-35-turbo-16k`
 - `gpt-4`
 - `gpt-4-32k`
 
+また、"Deploy Model" の画面で入力する "Deployment Name" はモデル名と同じにします。
+
 <br>
 
 最後に、左メニューの "Deployments" をクリックして2つのモデルがデプロイされていることが確認します。
+
+<br>
 
 ## 0-3. クォータの更新
 
