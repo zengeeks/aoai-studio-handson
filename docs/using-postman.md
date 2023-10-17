@@ -17,4 +17,4 @@
 
 ---
 
-[⏮️ 前へ](./setup-cognitive-search.md) | [📋 目次](../README.md) | [⏭️ 次へ](./deploy-webapp.md)
+[⏮️ 前へ](./setup-on-your-data.md) | [📋 目次](../README.md) | [⏭️ 次へ](./deploy-webapp.md)

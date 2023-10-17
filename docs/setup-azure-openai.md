@@ -84,11 +84,29 @@ Azure OpenAI のリソースが表示されたら "概要" の上部にある "G
 
 最後に、左メニューの "Deployments" をクリックして2つのモデルがデプロイされていることが確認します。
 
+## 0-3. クォータの更新
 
-### クォータの更新
+Azure OpenAI Service は、TPM (Tokens-per-Minute) という単位で、モデルがアクセスできるトークンの数を制限しています。デフォルトでは1Kになっているため、今回作業を円滑に行なうためにこの値を変更します。
 
+画面左の Quatas (①) をクリック > "Text-Embeddings-Ada-002" (②) を展開 > 今回作成した Deployment ID をクリックします。
 
-TODO: ADA > 50K,
+![image](./images/0-3-1.png)
+
+<br>
+
+"Advanced options" をクリックします。
+
+![image](./images/0-3-2.png)
+
+<br>
+
+"Token per Minute Rate Limit" を「50k」に設定 (①)し、"Save and close" (②) をクリックします。
+
+![image](./images/0-3-3.png)
+
+<br>
+
+同様の手順で、GPTのモデルも10K程度に上げておきます。
 
 ## ✨ Congratulations ✨
 
