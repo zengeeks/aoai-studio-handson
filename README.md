@@ -13,13 +13,16 @@ Azure OpenAI Studio には、独自のデータをアップロードし、その
 - Azure OpenAI Studio の基本的な使い方
 - On Your Data の構成方法
 - **Postman** を使った REST API のアクセス方法の基礎と Tips
-  - Postman は、API を構築および使用するための API プラットフォームです。 Postman は API ライフサイクルの各ステップを簡素化し、コラボレーションを合理化することで、より優れた API をより迅速に作成できるようにします。今回はこの Postman を使って API をコールする方法を実践します。
+
+### ※ Postman について
+
+Postman は、API を構築および使用するための API プラットフォームです。Postman は API ライフサイクルの各ステップを簡素化し、コラボレーションを合理化することで、より優れた API をより迅速に作成できるようにします。今回はこの Postman を使って API をコールする方法を実践します。
 
 <br>
 
 ## 🚧 Azure のリソース作成時の注意
 
-**※ 今回のハンズオンでは、Auzre のリソースを作成することで料金が発生するリソースもあります。ご自身の状況に応じて、今回のハンズオンの最後にリソースグループごとすべて消すなどは自己責任で行なってください。**
+**※ 今回のハンズオンでは、Auzre のリソースを作成することで料金が発生するリソースもあります。ご自身の状況に応じて、今回のハンズオンの最後にリソースグループごとすべて消すなどの対応は、自己責任で行なってください。**
 
 <br>
 
@@ -34,18 +37,28 @@ Azure OpenAI Studio には、独自のデータをアップロードし、その
 🧪 2. Storage account のセットアップ | Azure Storage Account のリソースをセットアップします。
 🧪 3. On Your Data で独自のデータを活用して回答を生成 | Azure OpenAI Studio から On Your Data をセットアップし、正しく回答が得ることができるかを実践します。
 🧪 4. Postman を利用した API のコール | Postman を使って Azur OpenAI の API をコールする方法を実践します。
-(Option)<br>🧪 5. On Your Data のデプロイ | On Your Data で作成したチャットをデプロイし、Postman からコールします。
+(Option)<br>🧪 5. On Your Data のデプロイ | On Your Data で作成したチャットをデプロイしてチャットの利用を実践します。
 リソースの削除 | リソースグループからリソースの削除をする方法を紹介します。
 
 <br>
 
 ## 🛠️ 事前準備
 
+### Azure のサブスクリプション
+
 このハンズオンでは、Azure で以下のリソースを作成します。そのためハンズオンを開始する前に Azure サブスクリプションの準備と以下のリソースが作成できることをご確認ください。
 
 - Azure OpenAI Service
 - Cognitive Search
 - Storage Account
+
+### Postman
+
+Postman をダウンロードしてインストールします。無料で利用が可能ですが、はじめての場合は Sign up が必要になります。  
+
+- [Postman | The Collaboration Platform for API Development](https://www.postman.com/)
+
+※ 諸事情でインストールが許容できない場合、Postman のハンズオンをスキップして進めることも可能です。
 
 <br>
 
