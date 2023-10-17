@@ -48,13 +48,15 @@ Web App の URL へ遷移します。初回アクセス時は、アクセス許�
 
 <br>
 
-
-
 ## ✨ Congratulations ✨
 
 おめでとうございます🎉。ここでは、Azure OpenAI Studio の On Your Data のデプロイ機能を使い、Web App にチャットのアプリをデプロイする方法を実践しました。
 
-これでハンズオンプログラムは終了です。一部のリソースはコストがかかります。そのため、最後のコンテンツとして Azure のリソースを削除の手順を確認しておきましょう。
+今回デプロイしたリソースについて興味がありましたら、以下のドキュメントで詳細の確認が可能です。
+
+- [モデルのデプロイ (独自のデータに基づく Azure OpenAI) | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/concepts/use-your-data#deploying-the-model)
+
+これでハンズオンプログラムは終了です。今回作成した Azure のリソースで一部にはコストがかかります。そのため、最後のコンテンツとして Azure のリソースを削除の手順を確認しておきましょう。
 
 ---
 
