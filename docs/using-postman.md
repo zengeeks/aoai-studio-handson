@@ -13,7 +13,7 @@
 
 おめでとうございます🎉。Postman を使って API をコールする方法を実践することができました。  
 
-次は Azure OnepAI Stdio で構築した On Your Data の API をデプロイして公開します。
+次は Azure OnepAI Studio で構築した On Your Data の API をデプロイして公開します。
 
 ---
 

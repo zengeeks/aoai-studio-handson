@@ -6,7 +6,7 @@ Azure OpenAI Studio では、On Your Data で構成した内容を、Azure の W
 
 ## 5-1. On Your Data のデプロイ
 
-Chat ploygroundd で On Your Data がセットアップされた状態だと、右上の "Deploy" ボタンが有効になっているのでクリック > "A new web app" をクリックします。
+Chat ployground で On Your Data がセットアップされた状態だと、右上の "Deploy" ボタンが有効になっているのでクリック > "A new web app" をクリックします。
 
 ![image](./images/5-1-1.png)
 
@@ -42,7 +42,7 @@ Web App の URL へ遷移します。初回アクセス時は、アクセス許�
 
 <br>
 
-チャットの UI が表示されます。ここで Azure OpenAI Studio の Chat playgournd で On Your Data を使ってチャットをしたことと同じ機能が実現できます。
+チャットの UI が表示されます。ここで Azure OpenAI Studio の Chat playground で On Your Data を使ってチャットをしたことと同じ機能が実現できます。
 
 ![image](./images/5-1-5.png)
 

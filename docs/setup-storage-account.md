@@ -37,7 +37,7 @@ No. | 項目 | 入力内容
 
 おめでとうございます🎉。これで Storage account のセットアップは完了です。  
 
-次は Azure OnepAI Stdio で On Your Data を構築します。
+次は Azure OnepAI Studio で On Your Data を構築します。
 
 ---
 

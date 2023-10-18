@@ -24,7 +24,7 @@ No. | 項目 | 入力内容
 1 | Select data source | "Upload files" を選択します。
 2 | Subscription | 今回利用する任意のサブスクリプションを選択します。
 3 | Select Azure Blob storage resource | 今回作成した Azure Blob storage のリソースを選択します。<br>選択時に "Turn on CORS" のボタンが表示されるのでクリックします。
-4 | Select Azure Cognitve Search resource | 今回作成した Azure Cognitve Search のリソースを選択します。
+4 | Select Azure Cognitive Search resource | 今回作成した Azure Cognitve Search のリソースを選択します。
 5 | Enter the index name | 「surface-pro4」と入力します。
 6 | Add Vector search to this search resource | チェックを入れます。
 7 | Select an embedding model | 作成した「text-embedding-ada-002」を選択します。
