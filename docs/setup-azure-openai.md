@@ -61,19 +61,20 @@ Azure OpenAI のリソースが表示されたら "概要" の上部にある "G
 
 以下の手順でモデルのデプロイの準備をします。
 
-- Azure OpenAI Studio の左メニュー "Models" をクリック (①) します。
+- Azure OpenAI Studio の左メニュー "Models (モデル)" をクリック (①) します。
 - "text-embedding-ada-002" をクリックしてチェックオン (②) にします。
-- "Deploy" をクリック (③) します。
+- "Deploy (作成)" をクリック (③) します。
 
 ![image](./images/0-2-2.png)
 
 <br>
 
-"Deploy Model" の画面が表示されます。
+"Deploy Model (モデルのデプロイ)" の画面が表示されます。
 
-- "Select a model" で "text-embedding-ada-002" を選択されていることを確認します (①)。
-- "Deployment Name" には、Model name と同様の "text-embedding-ada-002" を入力します (②)。
-- "Create" をクリックしてデプロイを開始します (③)。
+- "Select a model (モデルを選択してください)" で "text-embedding-ada-002" を選択されていることを確認します (①)。
+- "Model Version (モデルバージョン)" はデフォルトのままにします。
+- "Deployment Name (デプロイ名)" には、Model name と同様の "text-embedding-ada-002" を入力します (②)。
+- "Create (作成)" をクリックしてデプロイを開始します (③)。
 
 ![image](./images/0-2-3.png)
 
@@ -85,7 +86,7 @@ Azure OpenAI のリソースが表示されたら "概要" の上部にある "G
 - `gpt-4`
 - `gpt-4-32k`
 
-また、"Deploy Model" の画面で入力する "Deployment Name" はモデル名と同じにします。
+また、"Deploy Model (モデルのデプロイ)" の画面で入力する "Deployment Name (デプロイ名)" はモデル名と同じにします。
 
 <br>
 
@@ -101,19 +102,19 @@ Azure OpenAI Service は、TPM (Tokens-per-Minute) という単位で、モデ�
 
 ここではハンズオンを円滑に行なうためにクォータを変更します。
 
-画面左の Quatas (①) をクリック > "Text-Embeddings-Ada-002" (②) を展開 > 今回作成した Deployment ID をクリックします。
+画面左の Quatas (①) をクリック > "Text-Embeddings-Ada-002" (②) を展開 > 今回作成した Deployment ID (③、text-enbedings-ada-002) をクリックします。
 
 ![image](./images/0-3-1.png)
 
 <br>
 
-"Advanced options" をクリックします。
+"Advanced options (詳細設定オプション)" をクリックします。
 
 ![image](./images/0-3-2.png)
 
 <br>
 
-"Token per Minute Rate Limit" を「50k」に設定 (①)し、"Save and close" (②) をクリックします。
+"Token per Minute Rate Limit (1分あたりのトークンレート制限)" を「50k」に設定 (①)し、"Save and close (保存して閉じる)" (②) をクリックします。
 
 ![image](./images/0-3-3.png)
 
