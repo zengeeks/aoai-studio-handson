@@ -1,4 +1,4 @@
-# 🧪 OPTION On Your Data のデプロイ
+# OPTION: 🧪 On Your Data のデプロイ
 
 Azure OpenAI Studio では、On Your Data で構成した内容を、Azure の Web Apps にデプロイしてチャットの Web アプリとして公開する機能があります。
 
