@@ -4,9 +4,10 @@
 
 このリポジトリでは、Azure OpenAI Studio の機能を使った2種類のハンズオンがあります。興味のある方を選んでトライしましょう。
 
-1. On Your Data ハンズオン
-2. Assistants ハンズオン
+1. **On Your Data ハンズオン**
+2. **Assistants ハンズオン**
 
+<br>
 
 > [!CAUTION]
 > 今回のハンズオンでは、Auzre のリソースを作成することで料金が発生するリソースがあります。今回のハンズオンの最後にリソースグループごとすべて消すなどの対応は、自己責任で行なってください。  
@@ -39,7 +40,7 @@ On Your Data のハンズオン構成は以下です。
 [🧪 2. Storage account のセットアップ](./docs/setup-storage-account.md) | Azure Storage Account のリソースをセットアップします。
 [🧪 3. On Your Data で独自のデータを活用して回答を生成](./docs/setup-on-your-data.md) | Azure OpenAI Studio から On Your Data をセットアップし、自身でアップロードしたデータをもとに回答を得ることができるかを実践します。
 す。
-(Option)<br>[🧪 OPTION: On Your Data のデプロイ](./docs/deploy-webapp.md) | On Your Data で作成したチャットをデプロイしてチャットの利用を実践します。
+(Option)<br>[🧪 On Your Data のデプロイ](./docs/deploy-webapp.md) | On Your Data で作成したチャットをデプロイしてチャットの利用を実践します。
 [リソースの削除](./docs/remove-azure-resources.md) | リソースグループからリソースの削除をする方法を紹介します。
 
 <br>
@@ -49,11 +50,11 @@ On Your Data のハンズオン構成は以下です。
 
 ### Assistants ハンズオンの概要
 
-TODO !!!!!
+TODO: 準備中
 
 ### Assistants ハンズオンの構成
 
-TODO !!!!!
+TODO: 準備中
 
 
 
