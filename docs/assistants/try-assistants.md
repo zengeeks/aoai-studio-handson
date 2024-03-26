@@ -2,22 +2,25 @@
 
 Azure OpenAI Service で Assistants の機能を使い、以下を実践します。
 
-- Assistants の機能のひとつである Code Interpreter を使ってデータの分析を行います。
-- 分析するデータは、Kaggle で公開されている [Video Game Sales のデータセット](https://www.kaggle.com/datasets/gregorut/videogamesales) を使います。
-  - このデータは、販売本数が 100,000 本を超えるゲームの売上データです。
-  - 日本、ヨーロッパ、北米などの地域別、プラットフォーム (プレイステーション2～4や PC、XBOXなど)ごとに売上が記録されています。
+- Assistants を使って、アップロードしたデータを分析する AI アシスタントを構築します。
+- アップロードするデータは、Kaggle で公開されている [Video Game Sales のデータセット](https://www.kaggle.com/datasets/gregorut/videogamesales) です。
+  - 販売本数が 100,000 本を超えるゲームの売上データです。
+  - 日本、ヨーロッパ、北米などの地域別、プラットフォーム (プレイステーション2～4や PC、XBOXなど)ごとの売上のデータです。
 
 
-Assistants の実行は時間がかかることもあるので、最初にセットアップして質問をしてから、実行中の待ち時間を使って Assistants の概要を説明します。
+以下の流れで進めます。Assistants の実行は時間がかかることもあるため、最初にセットアップして質問をしてから、実行中の待ち時間を使って Assistants の概要を説明します。
 
-TODO:
+- 1-1. Assistant のセットアップ
+- 1-2. Assistant の動作確認
+- 1-3. Assistants API の概要
 
+<br>
 
 ## 1-1. Assistant のセットアップ
 
 Assistant を、与えた Video Game Sales のデータセットを分析する専門家としてセットアップします。
 
-最初にデータセットをダウンロードします。CTRL キー (または Command キー) を押しながら、[こちらをクリック](data/vdeo-game-sales.csv) ブラウザの別タブで開き、"Download raw file" をクリックしてファイルをダウンロードします。
+最初にデータセットをダウンロードします。CTRL キー (または Command キー) を押しながら [こちらをクリック](data/vdeo-game-sales.csv) すると、ブラウザの別タブでデータが表示されます。上部の右側の "Download raw file" をクリックしてファイルをダウンロードします。
 
 ![image](images/1-01.png)
 
@@ -28,7 +31,6 @@ Azure OpenAI Service で「アシスタント (プレビュー)」をクリッ�
 - "New" をクリック (②) します。
 - "アシスタント名" (③) には「Video Game Sales Analyst」と入力します。
 - 手順 (④) には、以下の内容を入力します。
-
   ```txt
    あなたは、データ分析の専門家です。
    与えられたデータには販売本数が 100,000 本を超えるビデオ ゲームのリストが含まれています。
@@ -47,13 +49,14 @@ Azure OpenAI Service で「アシスタント (プレビュー)」をクリッ�
    Other_Sales - Sales in the rest of the world (in millions)
    Global_Sales - Total worldwide sales.  
   ```
-
 - "デプロイ" (④) には、デプロイしたものを選択します。
 - "コードインタープリター" のトグル (⑥)をオンにします。
 - "ファイルの追加" をクリック (⑦) し、"ローカルファイルをアップロード" をクリックして、先ほどダウンロードしたファイルをアップロードします。
 - 最後に上部の "Save" をクリック (⑧) してセットアップを完了です。
 
 ![image](images/1-02.png)
+
+<br>
 
 ## 1-2. Assistant の動作確認
 
@@ -66,21 +69,23 @@ Azure OpenAI Service で「アシスタント (プレビュー)」をクリッ�
 
 <br>
 
-## 1.3. Assistants API の概要
+## 1.3. Assistants の概要
 
-- "Assistants" (または "Assistants API") は、Azure OpenAI Service の機能のひとつで現在プレビュー中です。
-- Assistants には、Code interpreter と Function Calling の機能が利用できます。
-  - Code interpreter は、モデルが質問の回答を生成する際、Python のコードを実行して回答の生成をサポートします。
-  - Function Calling は、自身で定義したプログラムの関数を動的に呼び出すことができます。
+"Assistants" (または "Assistants API") は、Azure OpenAI Service の機能のひとつで現在プレビュー中です。
 
-Chat Completions API と Assistants API では以下の違いがあります。
+Assistants には、Code interpreter と Function Calling の機能が利用できます。
+
+- Code interpreter は、モデルが質問の回答を生成する際、Python のコードを実行して回答の生成をサポートします。
+- Function Calling は、自身で定義したプログラムの関数を動的に呼び出すことができます。
+
+従来の Chat Completions API と Assistants API での代表的な違いの一部は以下です。
 
 Chat Completions API | Assistants API
 ---|---
 ステートレスなので、会話の履歴やコンテキストの保持は自身でプログラムを実装する必要があります。 | 会話の履歴やコンテキストの保持が自動で行われまるため、ステートフルです。
 利用する LLM に応じてトークン数の制限を超えないようプログラムで管理する必要があります。 | トークン数の制限を超えないよう自動で管理されます。
 
-質問の待ち時間で、以下のドキュメントで詳細の情報をご参照ください。
+質問の待ち時間を使って、以下のドキュメントで詳細の情報をご参照ください。
 
 - [Azure OpenAI Assistants API (プレビュー) の概念](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/concepts/assistants)
 - [Azure OpenAI Assistants (プレビュー) の概要 | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/assistant)
@@ -103,5 +108,3 @@ Python のコードを実行して回答を生成できるため、データか�
 ---
 
 [📋 目次へ戻る](../../README.md)
-
-
