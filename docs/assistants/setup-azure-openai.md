@@ -2,7 +2,6 @@
 
 ここでは、Azure OpenAI Service のリソースの作成とモデルのデプロイを行ないます。
 
-
 - 0-1. Azure OpenAI Service のリソースの作成
 - 0-2. モデルのデプロイ
 - 0-3. クォータの更新
@@ -12,7 +11,6 @@
 > [!IMPORTANT]
 > **既に Azure OpenAI Service のリソースを作成済みの場合は、「Azure OpenAI Service のリソースの作成」は飛ばして「0-2. モデルのデプロイ」からご確認ください。**
 
-
 Azure portal (`portal.azure.com`) を開き、上部の検索で「azure openai」と入力して表示される "Azure OpenAI" をクリックします。
 
 ![image](./images/0-1-1.png)
@@ -20,7 +18,6 @@ Azure portal (`portal.azure.com`) を開き、上部の検索で「azure openai�
 <br>
 
 Azure OpenAI Service の一覧が表示されますので、"作成" をクリックします。
-
 
 ![](./images/0-1-2.png)
 
@@ -35,7 +32,6 @@ No.  | 項目 | 入力内容
 3 | リージョン | 任意の場所を選択します。今回利用する　Assistants の機能は利用できるリージョンが限られているため、利用可能なリージョンの一つである「Australia East」(オーストラリア東部) をおすすめします。
 4 | 名前 | 任意の名称を入力します。これはグローバルで一意の名称になる必要があります。例:「oai-xxxx-202403」("xxxxx" は自分のハンドルネームや任意のプロジェクト名などを入力してグローバルで一意になるようにします) 。
 5 | 価格レベル | "Standard S0" を選択します。
-
 
 "ネットワーク" と "タグ" はデフォルトの設定のままで "次へ" をクリックし "レビューおよび送信" まで進み、"作成" をクリックします。
 
@@ -52,14 +48,13 @@ No.  | 項目 | 入力内容
 - `gpt-4` `gpt-35-turbo` のいずれか
 
 > [!IMPORTANT]
-> Assisntants を利用できるリージョン、モデルのバージョンンは以下のドキュメントに記載があります。
+> Assistants を利用できるリージョン、モデルのバージョンンは以下のドキュメントに記載があります。
 >
 > - [アシスタント (プレビュー) - Azure OpenAI Service モデル | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/concepts/models#assistants-preview)
 
-
 ### GPT モデルのデプロイ
 
-Azure OpenAI のリソースが表示されたら "概要" の上部にある "Go to Azure OpenAI Studio" をクリックして Azure OpneAI Studio に移動します。
+Azure OpenAI のリソースが表示されたら "概要" の上部にある "Go to Azure OpenAI Studio" をクリックして Azure OpenAI Studio に移動します。
 
 ![image](./images/0-2-1.png)
 
@@ -84,11 +79,9 @@ Azure OpenAI のリソースが表示されたら "概要" の上部にある "G
 
 ![image](./images/0-2-3.png)
 
-
 ## ✨ Congratulations ✨
 
 おめでとうございます🎉。最初の一歩として Azure OpenAI Service のセットアップが完了しました。
-
 
 ---
 

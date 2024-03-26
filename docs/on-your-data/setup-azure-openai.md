@@ -54,7 +54,7 @@ No.  | 項目 | 入力内容
 
 ### text-embedding-ada-002 のデプロイ
 
-Azure OpenAI のリソースが表示されたら "概要" の上部にある "Go to Azure OpenAI Studio" をクリックして Azure OpneAI Studio に移動します。
+Azure OpenAI のリソースが表示されたら "概要" の上部にある "Go to Azure OpenAI Studio" をクリックして Azure OpenAI Studio に移動します。
 
 ![image](./images/0-2-1.png)
 
@@ -102,7 +102,7 @@ Azure OpenAI Service は、TPM (Tokens-per-Minute) という単位で、モデ�
 
 ここではハンズオンを円滑に行なうためにクォータを変更します。
 
-画面左の Quatas (①) をクリック > "Text-Embeddings-Ada-002" (②) を展開 > 今回作成した Deployment ID (③、text-enbedings-ada-002) をクリックします。
+画面左の "クォータ" (①) をクリック > "Text-Embeddings-Ada-002" (②) を展開 > 今回作成した Deployment ID (③、text-enbedings-ada-002) をクリックします。
 
 ![image](./images/0-3-1.png)
 

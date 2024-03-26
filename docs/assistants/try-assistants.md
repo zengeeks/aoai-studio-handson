@@ -1,19 +1,16 @@
-# 🧪 1. Assistants を試す
+# 🧪 1. データ分析のアシスタントを作る
 
-Azure OpenAI Service で Assisntans の機能を使い、以下の内容を試します。
+Azure OpenAI Service で Assistants の機能を使い、以下を実践します。
 
 - Assistants の機能のひとつである Code Interpreter を使ってデータの分析を行います。
-- 分析するデータは、kaggle で公開されている [Video Game Sales のデータセット](https://www.kaggle.com/datasets/gregorut/videogamesales) を使います。
+- 分析するデータは、Kaggle で公開されている [Video Game Sales のデータセット](https://www.kaggle.com/datasets/gregorut/videogamesales) を使います。
   - このデータは、販売本数が 100,000 本を超えるゲームの売上データです。
   - 日本、ヨーロッパ、北米などの地域別、プラットフォーム (プレイステーション2～4や PC、XBOXなど)ごとに売上が記録されています。
 
 
-
-Assistants の実行は時間がかかることもあるので、最初にセットアップして質問をしてから、実行中の待ち時間を使って Assisntants の概要を説明します。
-
+Assistants の実行は時間がかかることもあるので、最初にセットアップして質問をしてから、実行中の待ち時間を使って Assistants の概要を説明します。
 
 TODO:
-
 
 
 ## 1-1. Assistant のセットアップ
@@ -60,10 +57,10 @@ Azure OpenAI Service で「アシスタント (プレビュー)」をクリッ�
 
 ## 1-2. Assistant の動作確認
 
-以下の質問をして、Assistant の動作を確認しましょう。実行に時間がかかるため、回答を待っている間に後述の **1.3. Assistants API の概要** を読み概要や機能の理解を深めましょうましょう。
+以下の質問をして、Assistant の動作を確認しましょう。実行に時間がかかるため、回答を待っている間に後述の **1.3. Assistants API の概要** を読み概要や機能の理解を深めましょう。
 
 - 日本で人気の上位10件を教えてください
-- Platform ごと地域ごとので売上の傾向を分析してください
+- Platform ごと・地域ごとので売上の傾向を分析してください
 - 実行した Python のコードを表示してください。
 - Platform が PC で売上の傾向を分析してください。
 
@@ -71,9 +68,9 @@ Azure OpenAI Service で「アシスタント (プレビュー)」をクリッ�
 
 ## 1.3. Assistants API の概要
 
-- "Assistants" (または "Assisntants API") は、Azure OpenAI Service の機能のひとつで現在プレビュー中です。
+- "Assistants" (または "Assistants API") は、Azure OpenAI Service の機能のひとつで現在プレビュー中です。
 - Assistants には、Code interpreter と Function Calling の機能が利用できます。
-  - Code interperter は、モデルが質問の回答を生成をする際、Python のコードを実行して回答の生成をサポートします。
+  - Code interpreter は、モデルが質問の回答を生成する際、Python のコードを実行して回答の生成をサポートします。
   - Function Calling は、自身で定義したプログラムの関数を動的に呼び出すことができます。
 
 Chat Completions API と Assistants API では以下の違いがあります。
@@ -87,22 +84,24 @@ Chat Completions API | Assistants API
 
 - [Azure OpenAI Assistants API (プレビュー) の概念](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/concepts/assistants)
 - [Azure OpenAI Assistants (プレビュー) の概要 | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/assistant)
-- [Azure OpenAI アシスタント コード インタープリター (プレビュー) | Micorosft Learn](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/code-interpreter?tabs=python)
+- [Azure OpenAI アシスタント コード インタープリター (プレビュー) | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/code-interpreter?tabs=python)
 - [Azure OpenAI Assistants 関数呼び出し | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/assistant-functions?tabs=python)
 
-
+<br>
 
 ## ✨ Congratulations ✨
 
-おめでとうございます🎉。これで Assisntans API の体験は完了です。  
+おめでとうございます🎉。Assistants API を活用してゲーム売上のデータ分析 AI アシスタントを作ることができました。  
 
 プレビュー中の Assistants の機能を使うことで、ステートフルな AI アシスタントを素早く構築することが可能です。  
 Python のコードを実行して回答を生成できるため、データからグラフの作成やドキュメントの作成も可能です。
 
-紹介した公式のドキュメントを参考にしながら、Assistants の機能を活用していきましょう。
+紹介した公式のドキュメントを参考にしながら、今回は利用していない Function Calling の機能なども駆使して、より高度な AI アシスタントを作成してみてください。
 
 ![image](images/1-03.png)
 
 ---
 
 [📋 目次へ戻る](../../README.md)
+
+
