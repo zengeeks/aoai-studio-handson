@@ -11,4 +11,4 @@
 
 ---
 
-[⏮️ 前へ](./deploy-webapp.md) | [📋 目次へ戻る](../README.md)
+[📋 目次へ戻る](../../README.md)

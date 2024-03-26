@@ -23,7 +23,7 @@ No. | 項目 | 入力内容
 1 | サブスクリプション | 任意のサブスクリプションを選択します。
 2 | リソースグループ | Azure OpenAI Service を作成したときに作ったリソースグループを選択します。
 3 | ストレージ アカウント名 | 任意の名前を入力します。
-4 | 地域 | Cognitive Search を作成したときに選んだ地域と同じ地域を選択します。
+4 | 地域 | AI Search を作成したときに選んだ地域と同じ地域を選択します。
 5 | パフォーマンス | "Standard" を選択します。
 6 | 冗長性 | "ローカル上長ストレージ(LRS)" を選択します。
 
@@ -37,8 +37,8 @@ No. | 項目 | 入力内容
 
 おめでとうございます🎉。これで Storage account のセットアップは完了です。  
 
-次は Azure OnepAI Studio で On Your Data を構築します。
+次は Azure OpenAI Studio で On Your Data を構築します。
 
 ---
 
-[⏮️ 前へ](./setup-cognitive-search.md) | [📋 目次](../README.md) | [⏭️ 次へ](./setup-on-your-data.md)
+[⏮️ 前へ](./setup-ai-search.md) | [📋 目次](../../README.md) | [⏭️ 次へ](./setup-on-your-data.md)
