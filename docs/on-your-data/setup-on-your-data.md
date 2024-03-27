@@ -4,7 +4,7 @@
 
 以下のサンプルデータを使って、Surface Pro 4 のユーザーガイドの専門家のチャットボットの API を作成します。
 
-- [Surface Pro 4 のユーザーガイド](../sample-data/on-your-data/surface-pro-4-user-guide_ja-jp.pdf)
+- [Surface Pro 4 のユーザーガイド](../on-your-data/sample-data/surface-pro-4-user-guide_ja-jp.pdf)
 
 - 3-1. On Your Data を構成する
 - 3-2. Azure OpenAI Studio のチャットから質問して回答を確認する
@@ -38,7 +38,7 @@ No. | 項目 | 入力内容
 
 まず、以下のリンクをクリックします。そして右上のダウンロードのボタンをクリックしてファイルをダウンロードします。
 
-- [Surface Pro 4 のユーザーガイド](../sample-data/on-your-data/surface-pro-4-user-guide_ja-jp.pdf)
+- [Surface Pro 4 のユーザーガイド](../on-your-data/sample-data/surface-pro-4-user-guide_ja-jp.pdf)
 
 ![image](./images/3-1-3.png)
 
